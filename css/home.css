@@ -349,7 +349,7 @@ nav>a>img{
 .box:hover {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.5);  animation-name: example;
+  background-color: rgba(65, 16, 16, 0.5);  animation-name: example;
   animation-duration: 0.25s;
   border-left: 8px solid #000;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);

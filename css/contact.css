@@ -140,7 +140,7 @@ nav>a>img{
   
   .name {
     background-color: #ebebeb;
-    color: white;
+    color: grey;
   }
   .name:hover {
     border-bottom: 5px solid #0e3721;
@@ -152,6 +152,7 @@ nav>a>img{
   .email {
     background-color: #ebebeb;
     height: 2em;
+    color: grey;
   }
   
   .email:hover {
@@ -165,6 +166,7 @@ nav>a>img{
     background-color: #ebebeb;
     overflow: hidden;
     height: 10rem;
+    color: grey;
   }
   
   .message:hover {

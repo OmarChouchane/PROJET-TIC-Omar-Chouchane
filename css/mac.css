@@ -10,6 +10,8 @@ html,body , .container{
     width: 100%;
     margin: 0;
     padding: 0;
+    height: 100%;
+
 }
 
 /*----------CONTAINER----------*/
@@ -45,10 +47,12 @@ nav>a>img{
 
 .starter{
     width: 100%;
-    height: 585px;
+    height: 100%;
     background-image: url(../img/mac/bg.jpg);
     background-size: 100%;
     background-position: center;
+    background-attachment: fixed;
+
     color: white;
     text-align: center;
     padding: 10px 0px;
@@ -96,11 +100,13 @@ content: "";
 
 .component{
   float: left;
-  padding-top: 180px;
+  padding-top : 15%;
+  display: block;
   width: 30%;
+  
   margin-left: 35px;
-  /*margin-left: 100px;*/
 }
+
 
 
 

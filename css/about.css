@@ -3,11 +3,13 @@
 *{
     box-sizing: border-box;
     letter-spacing: 2px; 
+
 }
 
 html,body , .container{
     font-family: 'Inter', sans-serif;
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -46,7 +48,7 @@ nav>a>img{
 
 .starter{
     width: 100%;
-    /*height: 900 px;*/
+    height: 100%;
     background-image: url(../img/contact/bg.jpg);
     background-size: 100%;
     background-position: center;
@@ -61,8 +63,12 @@ nav>a>img{
 
 
 
-.container{  padding-top: 50px;
-    padding-bottom: 0px;}
+.container{
+  padding-top : 10%;
+  /*display: block;*/
+  width: 30%;
+  margin-left: 20%;
+}
   
   
   .background-img{
@@ -83,7 +89,7 @@ nav>a>img{
   
 .content p{
   line-height: 40px;
-  padding: 35px ;
+  padding: 40px ;
   font-size: 20px;
 }
 
@@ -213,13 +219,13 @@ nav>a>img{
 
 
   footer{
-    margin-left: 0px;
-    margin-top: -30px;
-    margin-bottom: -30px;
-    text-align: center;
-    padding-top: 20px;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 0;
+    height: 40px;
     width: 100%;
-    float: left;
-    height: 58px;
-    background-color: #000;
-  }
+    
+    text-align: center;
+    background-color: black ;
+    color: white;
+}
